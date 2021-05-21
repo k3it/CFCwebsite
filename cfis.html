@@ -1,21 +1,22 @@
 ---
 layout: page
 cfis: 
-  - Annalise Eure,CFII - Training Officer,Yes,annalise.weck@gmail.com
-  - David Berenson,CFII,,deberenson@yahoo.com
-  - David Gooch,CFI,Yes,gooch737@gmail.com
-  - Terry Kline,CFII,Yes,terrence_kline@yahoo.com
-  - Sterling Layman,CFII,,sterlinglayman@gmail.com
-  - James Owens,CFII,,jrowens82@gmail.com
-  - Gary Palumbo,CFII,Yes,akromech.gp@gmail.com
-  - Timothy Sorensen,CFII,,tim.sorensen@sbcglobal.net
-  - Robert Werneth,CFII,,rmwerneth@gmail.com
-  - Jonathan Emerson,CFII,,jon.m.emerson@gmail.com
-  - Derrick Hight,CFII - Member-At-Large,Yes,firefytr906@aol.com
-  - Fritz Koch,CFI,,fritzkoch3@gmail.com
-  - Brandon Anderson,CFII,Yes,anderson.brandon@gmail.com
-  - Vladimir Leshchenko,CFII,Yes,vlad.lesh@gmail.com
-  - Brad Schroeder,CFII,Yes,brads147@comcast.net
+  - Eure Annalise,CFII - Training Officer,Yes,annalise.weck@gmail.com
+  - Anderson Brandon,CFII,Yes,anderson.brandon@gmail.com
+  - Berenson David,CFII,No,deberenson@yahoo.com
+  - Emerson Jonathan,CFII,No,jon.m.emerson@gmail.com
+  - Gooch David,CFI,Yes,gooch737@gmail.com
+  - Hight Derrick,CFII - Member-At-Large,Yes,firefytr906@aol.com
+  - Kline Terry,CFII,Yes,terrence_kline@yahoo.com
+  - Koch Fritz,CFI,No,fritzkoch3@gmail.com
+  - Layman Sterling,CFII,No,sterlinglayman@gmail.com
+  - Leshchenko Vladimir,CFII,Yes,vlad.lesh@gmail.com
+  - Owens James,CFII,No,jrowens82@gmail.com
+  - Palumbo Gary,CFII,Yes,akromech.gp@gmail.com
+  - Schroeder Brad,CFII,Yes,brads147@comcast.net
+  - Sorensen Timothy,CFII,No,tim.sorensen@sbcglobal.net
+  - Werneth Robert,CFII,No,rmwerneth@gmail.com
+  - Winsor Tom,CFII - Vice President,No,winsortc@gmail.com
 ---
 
 <div class="row">
@@ -30,8 +31,9 @@ cfis:
       </tr>
       {% for cfi in page.cfis %}
         {% assign cfi_split = cfi | split: "," %}
+        {% assign cfi_name = cfi_split[0] | split: " " | reverse | join: " " %}
         <tr>
-          <td>{{cfi_split[0]}}</td>
+          <td>{{cfi_name}}</td>
           <td>{{cfi_split[1]}}</td>
           <td>{{cfi_split[2]}}</td>
           <td>{{cfi_split[3]}}</td>
