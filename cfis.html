@@ -1,27 +1,27 @@
 ---
 layout: page
 cfis: 
-  - Eure Annalise,CFII - Training Officer,Yes,annalise.weck@gmail.com
-  - Berenson David,CFII,,deberenson@yahoo.com
-  - Gooch David,CFI,,gooch737@gmail.com
-  - Hight Derrick,CFII,Yes,firefytr906@aol.com
-  - Keys Patrick,CFII,,patrickjay81@yahoo.com
-  - Kline Terry,CFII,Yes,terrence_kline@yahoo.com
-  - Koch Fritz,CFI,,fritzkoch3@gmail.com
-  - Layman Sterling,CFII,,sterlinglayman@gmail.com
-  - Leshchenko Vladimir,CFII,Yes,vlad.lesh@gmail.com
-  - Palumbo Gary,CFII,Yes,akromech.gp@gmail.com
-  - Schroeder Brad,CFII,Yes,brads147@comcast.net
-  - Sorensen Timothy,CFII,,tim.sorensen@sbcglobal.net
-  - Werneth Robert,CFII,,rmwerneth@gmail.com
-  - Winsor Tom,CFII - President,,winsortc@gmail.com
+  - Eure Annalise,CFII - Training Officer,Yes
+  - Berenson David,CFII,
+  - Gooch David,CFI,
+  - Hight Derrick,CFII,Yes
+  - Keys Patrick,CFII,
+  - Kline Terry,CFII,Yes
+  - Koch Fritz,CFI,
+  - Layman Sterling,CFII,
+  - Leshchenko Vladimir,CFII,Yes
+  - Palumbo Gary,CFII,Yes
+  - Schroeder Brad,CFII,Yes
+  - Sorensen Timothy,CFII,
+  - Werneth Robert,CFII,
+  - Winsor Tom,CFII - President,
 inactivecfis:
-  - Anderson Brandon,CFII,Yes,anderson.brandon@gmail.com
-  - Emerson Jonathan,CFII,,jon.m.emerson@gmail.com
-  - Bloodsaw Nathaniel,CFII,,njpblood@comcast.net
-  - Turner Dan,CFI,,dturner81676@yahoo.com
-  - Feeney Ryan,CFII,,ryan_feeney@att.net
-  - Charnes Jonathan,CFII,,sciencemancps@yahoo.com
+  - Anderson Brandon,CFII,Yes
+  - Emerson Jonathan,CFII,
+  - Bloodsaw Nathaniel,CFII,
+  - Turner Dan,CFI,
+  - Feeney Ryan,CFII,
+  - Charnes Jonathan,CFII,
 ---
 
 <div class="row">
@@ -32,7 +32,6 @@ inactivecfis:
         <th>Instructor</th>
         <th>Rating</th>
         <th>SR20</th>
-        <th>Contact</th>
       </tr>
       {% for cfi in page.cfis %}
         {% assign cfi_split = cfi | split: "," %}
@@ -41,7 +40,6 @@ inactivecfis:
           <td>{{cfi_name}}</td>
           <td>{{cfi_split[1]}}</td>
           <td>{{cfi_split[2]}}</td>
-          <td>{{cfi_split[3]}}</td>
         </tr>
       {% endfor %}
     </table>
