@@ -1,27 +1,12 @@
 ---
 layout: page
 cfis: 
-  - Eure Annalise,CFII,Yes
-  - Berenson David,CFII,
-  - Charnes Jonathan,CFII,
-  - Gooch David,CFI,
-  - Hight Derrick,CFII,Yes
-  - Keys Patrick,CFII,
-  - Kline Terry,CFII,Yes
-  - Koch Fritz,CFI,
-  - Layman Sterling,CFII,
-  - Leshchenko Vladimir,CFII,Yes
-  - Palumbo Gary,CFII,Yes
-  - Schroeder Brad,CFII,Yes
-  - Sorensen Timothy,CFII - Training Officer,
-  - Turner Dan,CFI,
-  - Werneth Robert,CFII,
-  - Winsor Tom,CFII - Chairman,
+cfis: 
+  - Tom Henry, CFI
+  - Brian Corcoran, CFI
+  - Naomi Schayek, CFII
 inactivecfis:
-  - Anderson Brandon,CFII,Yes
-  - Emerson Jonathan,CFII,
-  - Bloodsaw Nathaniel,CFII,
-  - Feeney Ryan,CFII,
+  - Pat Sands,CFII
 ---
 
 <div class="row">
@@ -31,7 +16,6 @@ inactivecfis:
       <tr>
         <th>Instructor</th>
         <th>Rating</th>
-        <th>SR20</th>
       </tr>
       {% for cfi in page.cfis %}
         {% assign cfi_split = cfi | split: "," %}
@@ -39,12 +23,11 @@ inactivecfis:
         <tr>
           <td>{{cfi_name}}</td>
           <td>{{cfi_split[1]}}</td>
-          <td>{{cfi_split[2]}}</td>
-        </tr>
+         </tr>
       {% endfor %}
     </table>
-    Please see the Clearview Flying Club roster or check user information on <a href="http://www.schedulemaster.com/smlogin.htm">ScheduleMaster</a> for telephone numbers.
+    Please see the Clearview Flying Club roster or check user information on <a href="http://aircraftclubs.com">Aircraftclubs</a> for telephone numbers.
     <br/><br/>
-    Please contact Annalise Eure, FFC Training Officer, with any questions or concerns.
+    Please contact Naomi Schayek, CFC Training Officer, with any questions or concerns.
   </div>
 </div>
