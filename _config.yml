@@ -1,5 +1,5 @@
 # Site settings
-title: Fox Flying Club
+title: Clearview Flying Club
 email: foxflyingclub@gmail.com
 url: https://www.foxflying.com
 description: "A member-owned non-profit flying club with a fleet of four well-maintained, affordably-priced aircraft."
@@ -10,7 +10,7 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Fox Flying Club
+footer: Clearview Flying Club
 
 # Build settings
 markdown: kramdown

@@ -1,4 +1,4 @@
-Fox Flying Club Website
+Clearview Flying Club Website
 =========================
 
 # Install Jekyll
@@ -58,20 +58,9 @@ The cfis.html page has special handling in the header:
 
 ```yaml
 cfis: 
-  - David Berenson,CFII,deberenson@yahoo.com
-  - David Gooch,CFI,gooch737@gmail.com
-  - Gary Palumbo,CFII,akromech@sbcglobal.net
-  - Timothy Sorensen,CFII,tim.sorensen@sbcglobal.net
-  - Robery Werneth,CFII,rmwerneth@gmail.com
-  - Tom Winsor,CFII,winsortc@gmail.com
-  - Annalise Eure,CFII,annalise.weck@gmail.com
-  - Ryan Feeney,CFII,ryan_feeney@att.net
-  - Derrick Hight,CFII,firefytr906@aol.com
-  - Terry Kline,CFII,terrence_kline@yahoo.com
-  - Brad Schroeder,CFII,brads147@comcast.net
-  - Fritz Koch,CFII,fritzkoch3@gmail.com
-  - Brandon Anderson,CFII,anderson.brandon@gmail.com
-  - Vladimir Leshchenko,CFII,vlad.lesh@gmail.com  
+  - Tom Henry CFI
+  - Brian Corcoran CFI
+  - Naomi Schayek CFII
 ```
 
 The page uses this list to compile the final page. Each row must have the name, certificate type, and email of the CFI in comma delimited format for the compiler to properly handle expansion into the HTML.
