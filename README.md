@@ -14,7 +14,10 @@ gem install bundler jekyll image_optimizer
 
 # Run the website
 
+
 ```
+bundle init #need to do only once
+bundle add jekyll #need to do only once
 bundle exec jekyll serve
 ```
 
@@ -24,7 +27,7 @@ Visit the site: http://localhost:4000
 
 ## Optimize images
 
-There's a built in image optimizer for creating the smallest image sizes possible
+There's a built-in image optimizer for creating the smallest image sizes possible
 
 _note, you may need to install additional libraries for png and jpeg on your computer_
 
