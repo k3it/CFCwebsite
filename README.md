@@ -1,4 +1,9 @@
 Clearview Flying Club Website
+
+
+# Note
+This is the git repository for the website of the Clearview Flying Club, based on the git repository foxflyingclub/website.
+
 =========================
 
 # Install Jekyll
