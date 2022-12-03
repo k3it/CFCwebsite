@@ -25,6 +25,10 @@ Visit the site: http://localhost:4000
 
 # Making changes
 
+## The landing page
+
+The landing pages contains the html files that will be loaded to the landing (i.e., main) page.
+
 ## Optimize images
 
 There's a built-in image optimizer for creating the smallest image sizes possible
@@ -43,7 +47,7 @@ All images should be contained here.
 
 ### docs
 
-This directory contains club documents like bylaws, POH's, etc
+This directory contains club documents like bylaws, POH's, etc.
 
 ### newsletters
 

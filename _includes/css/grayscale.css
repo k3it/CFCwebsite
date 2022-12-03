@@ -99,6 +99,13 @@ a:focus {
     outline: 0;
 }
 
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
 .navbar-custom a {
     color: #fff;
 }
@@ -149,7 +156,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/41598/exterior-dark.jpg) no-repeat bottom center scroll;
+    background: url(/img/2w2_1.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -295,6 +302,19 @@ a:focus {
     -o-background-size: cover;*/
 }
 
+.about-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;/*#000000; */
+    text-align: left;
+    /*background: url(/img/2w2_flyin.jpg) no-repeat center center scroll;*/
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .fleet-section {
     width: 100%;
     padding: 50px 0;
@@ -306,6 +326,19 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.events-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    text-align: left;
+    background: url(/img/2w2_32.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
 }
 
 .training-section {

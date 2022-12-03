@@ -1,9 +1,9 @@
 ---
 layout: page
 cfis:
-  - Tom Henry, CFI, cub1946@aol.com
+  - Tom Henry, CFI,
   - Brian Corcoran, CFI
-  - Naomi Schayek, CFII, nomushis@gmail.com
+  - Naomi Schayek, CFII
 inactivecfis:
   - Pat Sands,CFII
 ---
@@ -18,15 +18,15 @@ inactivecfis:
       </tr>
       {% for cfi in page.cfis %}
         {% assign cfi_split = cfi | split: "," %}
-        {% assign cfi_name = cfi_split[0] | split: " " | reverse | join: " " %}
+        {% assign cfi_name = cfi_split[0] | split: " " | reverse | join: ", " %}
         <tr>
           <td>{{cfi_name}}</td>
           <td>{{cfi_split[1]}}</td>
          </tr>
       {% endfor %}
     </table>
-    Please see the Clearview Flying Club roster or check user information on <a href="http://aircraftclubs.com">Aircraftclubs</a> for telephone numbers.
+    Please see the Clearview Flying Club roster or check user information on <a href="http://aircraftclubs.com">Aircraftclubs</a> for contact information.
     <br/><br/>
-    Please contact Naomi Schayek, CFC Training Officer, with any questions or concerns.
+    Please contact Naomi, CFC Training Officer, with any questions or concerns.
   </div>
 </div>
