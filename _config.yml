@@ -1,9 +1,11 @@
 # Site settings
 title: Clearview Flying Club
 email: gokoyev@gmail.com
-url: http://clearviewflyingclub.club/
+url: https://k3it.github.io
+baseurl: /CFCwebsite
 description: "A member-owned non-profit flying club with a fleet of two well-maintained, affordably-priced aircraft."
 address: "526 Oak Tree Road, Westminster, MD, 21157"
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#333333'
