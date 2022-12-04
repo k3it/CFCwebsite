@@ -1,0 +1,89 @@
+---
+layout: page
+milestones:
+    - Melanee Funk, SOLO, ?/??/2022
+    - Kyle Drayer, SOLO, ?/??/2022
+    - Thomas Marello, SOLO, 10/6/2022
+    - John Orzechowski, COMMERCIAL, 9/14/2022
+    - Isaac Newgent, SOLO, 9/10/2022
+    - McNally, PRIVATE PILOT, 8/26/2022
+    - Kian Donavan, PRIVATE PILOT, 7/5/2022
+    - Trent Miller, PRIVATE PILOT, 7/??/2022
+    - Jonathan Hawkins, PRIVATE PILOT, 4/29/2022
+    - Justin Buchanan, SOLO, 4/12/2022
+    - Michael Jordan, PRIVATE PILOT, 2/21/2022
+    - Michael Jordan, SOLO, 7/28/2021
+    - Vasiliy Gokoyev, PRIVATE PILOT, 6/28/2021
+    - Diego Ayala, PRIVATE PILOT, 5/27/2021
+    - John Orzechowski, HIGH PERF., 3/27/2021
+    - Vasiliy Gokoyev, SOLO, 2/12/2021
+    - Trent Miller, SOLO, 12/28/2020
+    - John Orzechowski, COMPLEX, 11/25/2020
+    - John Orzechowski, TAILWHEEL, 11/22/2020
+    - John Orzechowski, INSTRUMENT, 7/30/2020
+    - Nicholas Krionderis, PRIVATE PILOT, 7/29/2020
+    - Ryan Schnitzler, SOLO, 7/3/2020
+    - Brendan Maddox, SOLO, 7/3/2020
+    - Josh Ambrose, PRIVATE PILOT, 6/29/2020
+    - Nicholas Krionderis, SOLO, 5/26/2020
+    - Diego Ayala, SOLO, 3/1/2020
+    - Bill Valway, PRIVATE PILOT, 2/5/2020
+    - Sharon Int Veldt, SOLO, 1/30/2020
+    - Taylor Ritcher, PRIVATE PILOT, 11/30/2019
+    - Marlon Koushall, PRIVATE PILOT, 11/5/2019
+    - Adrian Petasis, PRIVATE PILOT, 11/1/2019
+    - Jeremy Watt, PRIVATE PILOT, 9/18/2019
+    - Taylor Richter, SOLO, 7/31/2019
+    - Marlon Koushall, SOLO, 7/14/2019
+    - Josh Ambrose, SOLO, 7/11/2019
+    - Bobby Evans, SOLO, 2/4/2019
+    - Lee Cumberland, PRIVATE PILOT, 1/22/2019
+    - Larry Gibbs, SOLO, 12/25/2018
+    - Nate Jackson, SOLO, 12/19/2018
+    - Eric Shaw, SOLO, 11/30/2018
+    - Charles Greene, PRIVATE PILOT, 11/20/2018
+    - Alan Koziol, COMMERCIAL, 10/25/2018
+    - Lee Cumberland, SOLO, 9/19/2018
+    - Andrew Hyde, PRIVATE PILOT, 8/28/2018
+    - James Hwang, INSTRUMENT, 8/26/2018
+    - John Orzechowski, PRIVATE PILOT, 8/9/2018
+    - Alan Koziol, INSTRUMENT, 7/4/2018
+    - Jamey Prettyman, SOLO, 6/1/2018
+    - John Orzechowski, SOLO, 4/26/2018
+    - Adrian Petasis, SOLO, 4/20/2018
+    - Andrew Hyde, SOLO, 2/26/2018
+    - Bill Valway, SOLO, 2/13/2018
+    - Jason Ashbaugh, PRIVATE PILOT, 12/22/2017
+    - Jeremy Watt, SOLO, 10/18/2017
+    - Jason Ashbaugh, SOLO, 10/10/2017
+    - Charles Greene, SOLO, 7/19/2017
+    - Dave Berry, PRIVATE PILOT, 6/22/2017
+    - Jason Levine, SOLO, 6/13/2017
+    - Travis Green, SOLO, 4/14/2017
+    - Mike Lawson, SOLO, 12/23/2016
+    - Dave Berry, SOLO, 12/11/2016
+---
+
+
+<div class="row">
+  <div class="col-lg-12 equipment">
+    <h3>Congratulations to the following members for their milestones:</h3>
+    <table class="table">
+      <tr>
+        <th>Date</th>
+        <th>Name</th>
+        <th>Achievement</th>
+      </tr>
+      {% for milestone in page.milestones %}
+        {% assign ms = milestone | split: "," %}
+        <tr>
+          <td>{{ms[2]}}</td>
+          <td>{{ms[0]}}</td>
+          <td>{{ms[1]}}</td>
+         </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+<p> Please send a pull request to the achievements_table.html to correct any errors or missing information.</p>
